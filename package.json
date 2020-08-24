@@ -4,6 +4,8 @@
   "description": "pure javascript site constructor",
   "main": "index.js",
   "scripts": {
+    "builde": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
   },
   "keywords": [
     "js",
