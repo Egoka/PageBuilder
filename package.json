@@ -1,0 +1,14 @@
+{
+  "name": "page-builder",
+  "version": "1.0.0",
+  "description": "pure javascript site constructor",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Egor Bodarenko <eg.bonda2014@gmail.com>",
+  "license": "ISC"
+}
