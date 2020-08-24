@@ -1,0 +1,21 @@
+{
+  "name": "page-builder",
+  "version": "1.0.0",
+  "description": "pure javascript site constructor",
+  "main": "index.js",
+  "scripts": {
+    "builde": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Egor Bodarenko <eg.bonda2014@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
