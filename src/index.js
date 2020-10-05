@@ -1,5 +1,6 @@
-import{model} from "./model.js"
-import{title,text,columns,image} from "./templates";
+import{model} from "./model"
+import{templates} from "./templates"
+import './styles/style.css'
 
 const $site = document.querySelector('#site')
 model.forEach(block=> {
