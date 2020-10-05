@@ -1,0 +1,26 @@
+{
+  "name": "web-constructor",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egorkassss/PageBuilder.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Egor Bonda <eg.bonda2014@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egorkassss/PageBuilder/issues"
+  },
+  "homepage": "https://github.com/Egorkassss/PageBuilder#readme"
+}
