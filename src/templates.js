@@ -1,31 +1,16 @@
+import{dev} from "./utils";
+
 function title(block){
-    return`
-        <div class="row">
-            <div class="col-sm">
-                <h1>${block.value}</h1>
-            </div>
-        </div>`
+    return(dev.row(dev.col(`<h1>${block.value}</h1>`)))
 }
 function text(block){
-    return`
-        <div class="row">
-            <div class="col-sm">
-                <p>${block.value}</p>
-            </div>
-        </div>`
+    return(dev.row(dev.col(`<p>${block.value}</p>`)))
 }
 function columns(block){
-    const html = block.value.map(item=>`<div class="col-sm">${item}</div>`).join('')
-    return`
-    <div class="row">
-        ${html}
-    </div>`
+    const html = block.value.map(item=>dev.col(item)).join('')
+    return(dev.row(html))
 }
 function image(block){
-    return`
-    <div class="row">
-        <img src="${block.value}">
-    </div>
-    `
+    return(dev.row(`<img src="${block.value}">`))
 }
 export const templates = {title, text, columns, image}
