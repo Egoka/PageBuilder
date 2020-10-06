@@ -26,5 +26,8 @@ export class SiteBar{
             ? new TextBlock(value, {styles})
             : new TitleBlock(value, {styles})
         this.update(newBlock)
+        
+        event.target.value.value = ''
+        event.target.styles.value = ''
     }
 }
