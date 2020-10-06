@@ -7,6 +7,7 @@ export class SiteBar{
     }
     init() {
         this.$sel.insertAdjacentHTML('afterbegin', this.template)
+        this.$sel.addEventListener('submit', this.add)
     }
     get template(){
         return [
@@ -14,5 +15,7 @@ export class SiteBar{
             block('text')
         ].join('')
     }
-
+    add(event){
+        event.preventDefault()
+    }
 }
